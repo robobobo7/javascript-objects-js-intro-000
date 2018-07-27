@@ -13,5 +13,6 @@ updatePlaylist(playlist, 'Pink Floyd', 'The Wall' )
 
 function removeFromPlaylist(list, artistName){
   delete list.artistName;
+  return list;
 }
 removeFromPlaylist(playlist, 'Soundgarden')
