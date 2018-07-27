@@ -16,4 +16,4 @@ function removeFromPlaylist(list, artistName){
   console.log(list);
   return list;
 }
-removeFromPlaylist(playlist, 'Soundgarden')
+removeFromPlaylist(playlist, 'Rush');
