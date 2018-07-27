@@ -11,9 +11,9 @@ function updatePlaylist(list, artistName, songTitle){
 }
 updatePlaylist(playlist, 'Pink Floyd', 'The Wall' )
 
-function removeFromPlaylist(list, artistName){
-  delete list.artistName;
-  console.log(list);
-  return list;
-}
-removeFromPlaylist(playlist, 'Rush');
+// function removeFromPlaylist(list, artistName){
+//   delete list.artistName;
+//   console.log(list);
+//   return list;
+// }
+// removeFromPlaylist(playlist, 'Rush');
